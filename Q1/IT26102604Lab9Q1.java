@@ -42,7 +42,5 @@ public class IT26102604Lab9Q1 {
             System.out.println("\nRoots are imaginary.");
 
         }
-
-        input.close();
     }
 }
