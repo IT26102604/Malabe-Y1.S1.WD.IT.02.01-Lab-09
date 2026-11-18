@@ -3,13 +3,13 @@ import java.util.Scanner;
 
 public class IT26102604Lab9Q4 {
 
-    // Method to calculate final mark
+    
     public static double calcFinalMark(double assignment, double exam) {
         double finalMark = (assignment * 0.30) + (exam * 0.70);
         return finalMark;
     }
 
-    // Method to find grade
+    
     public static String findGrades(double mark) {
 
         if (mark >= 75) {
@@ -26,7 +26,7 @@ public class IT26102604Lab9Q4 {
         }
     }
 
-    // Method to print student details
+    
     public static void printDetails(String name, double mark, String grade) {
 
         System.out.printf("%-15s %-15.2f %-10s%n",
@@ -43,7 +43,7 @@ public class IT26102604Lab9Q4 {
 
         System.out.println("Name           Final Mark     Grade");
 
-        // Get details of 5 students
+        
         for (int i = 1; i <= 5; i++) {
 
             System.out.println("\nStudent " + i);
@@ -66,6 +66,6 @@ public class IT26102604Lab9Q4 {
             printDetails(name, finalMark, grade);
         }
 
-        input.close();
+        
     }
 }
